@@ -31,6 +31,12 @@ git status
 
 Después de clonar el repositorio, completa esta sección durante la primera misión con los comandos para crear, activar y preparar el entorno virtual.
 
+Agrega python3 -m venv .venv en Instalacion.
+
+Agrega source .venv/bin/activate o .venv\Scripts\activate.
+
+Agrega pip install -r requirements.txt.
+
 ## Estructura esperada
 
 Durante la práctica crearás esta estructura:
@@ -163,12 +169,4 @@ Al terminar las misiones, se creará un issue final de calificación. Ejecuta ma
 ## Autores
 
 - Reemplaza esta línea con tu nombre, grupo, curso o rol.
-
-# commit -m "primera actualizacion"
-
-Agrega python3 -m venv .venv en Instalacion.
-
-Agrega source .venv/bin/activate o .venv\Scripts\activate.
-
-Agrega pip install -r requirements.txt.
 
