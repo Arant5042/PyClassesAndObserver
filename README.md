@@ -166,12 +166,9 @@ Al terminar las misiones, se creará un issue final de calificación. Ejecuta ma
 
 # commit -m "primera actualizacion"
 
-En tu computador, ejecuta python3 -m venv .venv.
+Agrega python3 -m venv .venv en Instalacion.
 
-Activa el entorno con source .venv/bin/activate o con .venv\Scripts\activate en Windows.
+Agrega source .venv/bin/activate o .venv\Scripts\activate.
 
-Instala dependencias con pip install -r requirements.txt.
+Agrega pip install -r requirements.txt.
 
-Edita README.md y revisa la seccion Crear el entorno virtual con los comandos que usaste.
-
-Haz commit y push de tu cambio.
