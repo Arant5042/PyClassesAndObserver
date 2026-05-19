@@ -163,10 +163,11 @@ python -m pytest
 Si una prueba falla, lee el mensaje de error y ajusta las clases. La meta es que los suscriptores reciban mensajes, que no se dupliquen suscripciones y que `desuscribir` detenga nuevas notificaciones.
 
 ## Ver la calificación
+a
 
 Al terminar las misiones, se creará un issue final de calificación. Ejecuta manualmente el workflow **Validar progreso de misiones** si quieres actualizar la revisión. El comentario del issue mostrará una calificación automática sobre 100.
 
 ## Autores
 
-- Reemplaza esta línea con tu nombre, grupo, curso o rol.
+- Armando Antonio López Cuellar Dev
 
