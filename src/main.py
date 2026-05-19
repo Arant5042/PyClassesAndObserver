@@ -1,14 +1,19 @@
 from observer_practice.canal import CanalNoticias
 from observer_practice.suscriptores import SuscriptorEmail, SuscriptorSMS
 
-canal = CanalNoticias("DonPepe")
-suscriptor1 = SuscriptorEmail("Andres")
-suscriptor2 = SuscriptorSMS("Sergio")
 
-canal.suscribir(suscriptor1)
-canal.suscribir(suscriptor2)
+def main():
+    canal = CanalNoticias("Python al día")
+    ana = SuscriptorEmail("Ana")
+    luis = SuscriptorSMS("Luis")
 
-canal.publicar("Buenas, se vende aire a domicilio")
+    canal.suscribir(ana)
+    canal.suscribir(luis)
+    canal.publicar("Nueva clase sobre patrones de diseño")
 
-print(suscriptor1.mensajes)
-print(suscriptor2.mensajes)
+    print(ana.mensajes)
+    print(luis.mensajes)
+
+
+if __name__ == "__main__":
+    main()
